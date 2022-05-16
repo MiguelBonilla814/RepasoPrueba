@@ -32,6 +32,7 @@ public class ActivityIngresarNombreBase extends AppCompatActivity {
             button_cerrar_Activity2.setEnabled(false);
 
     }
+    //Hola
 
     public void AbrirActivity3(View view){
         Intent intent = new Intent(this, FinalActivity.class);
