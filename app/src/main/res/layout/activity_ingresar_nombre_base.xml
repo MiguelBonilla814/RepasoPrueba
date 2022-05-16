@@ -61,13 +61,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_siguiente"
-        android:layout_margin="45px"/>
+        android:layout_margin="45px"
+        android:onClick="AbrirActivity3"/>
 
     <Button
         android:id="@+id/button_cerrar_Activity2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_cerrar"
-        android:layout_margin="45px"/>
+        android:layout_margin="45px"
+        android:onClick="CerrarActivity2"/>
 
 </LinearLayout>

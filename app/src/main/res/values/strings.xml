@@ -9,5 +9,6 @@
     <string name="button_siguiente">Siguiente</string>
     <string name="button_resultados">Mostrar Resultados</string>
     <string name="button_cerrar">Cerrar</string>
+    <string name="titulo_numero">Número</string>
     <string name="vacio"> </string>
 </resources>

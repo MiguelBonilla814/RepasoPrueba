@@ -20,7 +20,7 @@
             android:layout_weight="1"
             android:text="@string/titulo_nombres" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText_nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:text="@string/titulo_apellidos" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText_apellido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:layout_weight="1"
             android:text="@string/titulo_base" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText_base"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
             android:layout_weight="1"
             android:text="@string/titulo_exponente" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText_exponente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -121,7 +121,7 @@
             android:layout_weight="1"
             android:text="@string/titulo_factorial" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText_factorial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -146,7 +146,7 @@
             android:layout_weight="1"
             android:text="@string/titulo_potencia" />
 
-        <EditText
+        <TextView
             android:id="@+id/editText_potencia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,12 +163,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_siguiente"
-        android:layout_margin="45px"/>
+        android:layout_margin="45px"
+        android:onClick="AbrirSegundaActivity"/>
 
     <Button
         android:id="@+id/button_mostrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_resultados"
-        android:layout_margin="45px"/>
+        android:layout_margin="45px"
+        android:onClick="MostrarResultados"/>
 </LinearLayout>
