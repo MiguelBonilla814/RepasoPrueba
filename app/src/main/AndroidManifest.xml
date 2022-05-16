@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RepasoPrueba">
         <activity
+            android:name=".FinalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityIngresarNombreBase"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

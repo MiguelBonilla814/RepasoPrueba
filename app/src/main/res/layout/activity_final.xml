@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".FinalActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -14,14 +14,14 @@
         android:layout_margin="25px">
 
         <TextView
-            android:id="@+id/textView_titulo_nombres"
+            android:id="@+id/textView_titulo_nombres_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/titulo_nombres" />
 
         <EditText
-            android:id="@+id/editText_nombre"
+            android:id="@+id/editText_nombre_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -40,14 +40,14 @@
         android:layout_margin="25px">
 
         <TextView
-            android:id="@+id/textView_titulo_apellido"
+            android:id="@+id/textView_titulo_apellido_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/titulo_apellidos" />
 
         <EditText
-            android:id="@+id/editText_apellido"
+            android:id="@+id/editText_apellido_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -65,14 +65,14 @@
         android:layout_margin="25px">
 
         <TextView
-            android:id="@+id/textView_titulo_base"
+            android:id="@+id/textView_titulo_base_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/titulo_base" />
 
         <EditText
-            android:id="@+id/editText_base"
+            android:id="@+id/editText_base_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -90,14 +90,14 @@
         android:layout_margin="25px">
 
         <TextView
-            android:id="@+id/textView_titulo_exponente"
+            android:id="@+id/textView_titulo_exponente_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/titulo_exponente" />
 
         <EditText
-            android:id="@+id/editText_exponente"
+            android:id="@+id/editText_exponente_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -115,14 +115,14 @@
         android:layout_margin="25px">
 
         <TextView
-            android:id="@+id/textView_titulo_factorial"
+            android:id="@+id/textView_titulo_factorial_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/titulo_factorial" />
 
         <EditText
-            android:id="@+id/editText_factorial"
+            android:id="@+id/editText_factorial_activity3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -132,43 +132,10 @@
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
             android:editable="false"/>
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="25px">
-
-        <TextView
-            android:id="@+id/textView_titulo_potencia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/titulo_potencia" />
-
-        <EditText
-            android:id="@+id/editText_potencia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/vacio"
-            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"
-            android:editable="false"/>
-    </LinearLayout>
-
     <Button
-        android:id="@+id/button_siguiente"
+        android:id="@+id/button_cerrar_Activity3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_siguiente"
-        android:layout_margin="45px"/>
-
-    <Button
-        android:id="@+id/button_mostrar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_resultados"
+        android:text="@string/button_cerrar"
         android:layout_margin="45px"/>
 </LinearLayout>
